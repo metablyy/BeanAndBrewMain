@@ -1,0 +1,165 @@
+body {
+  background-image: url('/assets/Group1.png');
+  font-family: 'Monaco', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form1 {
+  background-color: #925320e7;
+  padding: 15px;
+  width: 300px;
+  height: 235px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 1;
+}
+:root{
+  background-image: url('/assets/Group1.png');
+  color: #d89393;
+  border: 3px solid #ffffff;
+}
+
+.form2 {
+  background-color: rgb(240, 143, 65);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 2;
+}
+
+#cookies{
+  display: block;
+  visibility: visible;
+}
+
+label {
+  font-family: 'Monaco', monospace;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+select, button {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background-color: #8C4D29;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+li {
+  float: right;
+}
+
+li a:hover {
+  color: #8b4a00;
+  transition: 0.3s;
+}
+
+li a {
+  background-color: white;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 700;
+
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: center;
+  z-index: 1;
+}
+
+ul {
+  top: 0px;
+  width: 100%;
+  position: fixed;
+
+  list-style-type: none;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+select {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+#textInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background-color: #8C4D29;
+    border: 3px solid #fcfdff;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#pageLabel{
+  text-align: left;
+  font-size: 30px;
+}
+
+button, .submit {
+  font-family: 'Monaco', monospace;
+  font-weight: lighter;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #58ee58;
+  border: 3px solid #383d55;
+  border-radius: 4px;
+  cursor: pointer;
+
+  transition: color 0.4s;
+}
+
+button:hover {
+  font-family: 'Monaco', monospace;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(5, 27, 5);
+}
+
+#txtHint {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fffcfc;
+}
+
+.horizontal{
+  background-color: black;
+}
+
+@media screen and (max-width: 1050px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    float: none;
+    width: 100%;
+    align-content: center;
+    gap: 1rem;
+
+    margin-top: 150px;
+  }
+
+  li {
+    float: none;
+  }
+}
